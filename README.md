@@ -1,12 +1,12 @@
 # redactor-searchreplace
-Searches and replaces text in editor. Can be started using a button in toolbar or by pressing CTRL+F.
+Searches and replaces text in editor. Can be started using a button in the toolbar or by pressing CTRL+F.
 
 ##Requirements
-Font Awesome is a requirement.
+Font Awesome is required.
 
 ##Features:
 * Preserves any formatting while replacing.
-* Search and replace can operate on text selection in editor only. 
+* Search and replace can operate on text selection or on whole content. 
 * Can match on word boundaries only.
 * Can be case sensitive or not.
 
