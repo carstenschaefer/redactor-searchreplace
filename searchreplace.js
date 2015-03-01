@@ -19,7 +19,7 @@ if (!RedactorPlugins) var RedactorPlugins = {};
       },
       show: function () {
         this.modal.addTemplate('searchreplace', getTemplate());
-        this.modal.load('searchreplace', 'Search And Replace', 300);
+        this.modal.load('searchreplace', 'Search And Replace', 500);
         this.modal.setTitle('Search And Replace');
 
         this.modal.createCancelButton();
@@ -81,9 +81,9 @@ if (!RedactorPlugins) var RedactorPlugins = {};
       + '<input type="text" size="5" id="redactor-search-replace-search" required />'
       + '<label>' + 'Replace' + '</label>'
       + '<input type="text" size="5" id="redactor-search-replace-replace" required />'
-      + '<input type="checkbox" id="redactor-search-replace-ignore-case" />' + 'Ignore Case' + '</label>'
-      + '<input type="checkbox" id="redactor-search-replace-word-boundary" />' + 'Match at Word Boundary' + '</label>'
-      + '<input type="checkbox" id="redactor-search-replace-only-selection" />' + 'Search Only in Selection' + '</label>'
+      + '<div><input type="checkbox" id="redactor-search-replace-ignore-case" />' + 'Ignore Case' + '</label></div>'
+      + '<div><input type="checkbox" id="redactor-search-replace-word-boundary" />' + 'Match at Word Boundary' + '</label></div>'
+      + '<div><input type="checkbox" id="redactor-search-replace-only-selection" />' + 'Search Only in Selection' + '</label></div>'
       + '</section>';
     }
 
